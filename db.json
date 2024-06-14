@@ -1,34 +1,37 @@
 {
-  "posts": [
+  "hotspots":[
     {
-      "id": 1,
-      "title": "Post 1",
-      "description": "this is description 1"
+      id: 1,
+      title: "Sofa",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
+      image: "https://devcdn.extscape.com/images/SeatSoftGrey.avif",
+      position: {
+        top: "80%",
+        left: "35%",
+      },
+      color: "#ffffff",
+      action: {
+        hasAction: true,
+        type: "link",
+        url: "https://www.google.com",
+        label: "View Product Details",
+        icon: "open_in_new",
+      },
     },
     {
-      "id": 2,
-      "title": "Post 2",
-      "description": "this is description 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3",
-      "description": "this is description 3"
+      id: 2,
+      title: "Lamp",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
+      color: "#ffffff",
+      position: {
+        top: "40%",
+        left: "82%",
+      },
+      action: {
+        hasAction: false,
+      }
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "comment 1",
-      "postId": 1
-    },
-    {
-      "id": 2,
-      "body": "comment 2",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "Profile 1"
-  }
+  ]
 }
