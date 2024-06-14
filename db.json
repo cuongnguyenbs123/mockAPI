@@ -1,37 +1,35 @@
 {
   "hotspots":[
-    {
-      id: 1,
-      title: "Sofa",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
-      image: "https://devcdn.extscape.com/images/SeatSoftGrey.avif",
-      position: {
-        top: "80%",
-        left: "35%",
-      },
-      color: "#ffffff",
-      action: {
-        hasAction: true,
-        type: "link",
-        url: "https://www.google.com",
-        label: "View Product Details",
-        icon: "open_in_new",
-      },
+  {
+    "id": 1,
+    "title": "Sofa",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
+    "image": "https://devcdn.extscape.com/images/SeatSoftGrey.avif",
+    "position": {
+      "top": "80%",
+      "left": "35%"
     },
-    {
-      id: 2,
-      title: "Lamp",
-      description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
-      color: "#ffffff",
-      position: {
-        top: "40%",
-        left: "82%",
-      },
-      action: {
-        hasAction: false,
-      }
+    "color": "#ffffff",
+    "action": {
+      "hasAction": true,
+      "type": "link",
+      "url": "https://www.google.com",
+      "label": "View Product Details",
+      "icon": "open_in_new"
     }
-  ]
+  },
+  {
+    "id": 2,
+    "title": "Lamp",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem. Sed euismod, nunc ut aliquam aliquam, nunc nisl aliquet nisl, eget aliquam nisl nisl sit amet lorem.",
+    "color": "#ffffff",
+    "position": {
+      "top": "40%",
+      "left": "82%"
+    },
+    "action": {
+      "hasAction": false
+    }
+  }
+]
 }
